@@ -1,0 +1,13 @@
+{
+  "step": 60,
+  "ping_count": 5,
+  "debug": true,
+  "transfers": [
+    "192.168.6.222:6060"
+  ],
+  "http": 2224,
+  "DC": "HL",
+  "targets": {
+    "alive-ping-test": "192.168.6.222"
+  }
+}
