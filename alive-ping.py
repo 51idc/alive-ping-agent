@@ -67,7 +67,8 @@ def alive(step):
         pool.join()
 
         for res in result:
-            metrics.extend(res.get())
+            if res:
+                metrics.extend(res.get())
         metric_handler.push_metrics(metrics)
 
         dlt = time.time() - now
